@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: darkcyan;
+    height: 20%;
+    color: white;
+}
+main{
+    background-color:white;
+    height: 70%;
+    display: flex;
+}
+.inbox{
+  background-color: darkturquoise;
+  flex-basis: 20%;
+  margin: 5px;
+  color: white;
+}
+.msglist{
+    background-color: darkturquoise;
+    flex-basis: 10%;
+    margin: 5px;
+    color: white;
+}
+.msg{
+    background-color: darkturquoise;
+    flex-basis: 60%;
+    margin: 5px;
+    color: white;
+}
+footer{
+    background-color:green;
+    height: 10%;
+    color: white;
+}

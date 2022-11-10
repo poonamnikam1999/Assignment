@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: mediumspringgreen;
+    height: 15%;
+    color: white;
+}
+main{
+    background-color: lightblue;
+    height: 70%;
+    display: flex;
+    
+}
+aside{
+    background-color: lime;
+    
+    flex-basis: 30%;
+    color: white;
+    margin: 5px;
+}
+article{
+    background-color: darkorange;
+    align-items: flex-end;
+    flex-basis: 70%;
+    color: white;
+    display: flex;
+    margin: 5px;
+}
+.img{
+    background-color: orange;
+    height: 50px;
+    width: 60px;
+    margin: 10px;
+    
+}
+
+footer{
+    background-color: rgb(46, 0, 250);
+    height: 15%;
+    color: white;
+}
